@@ -25,4 +25,4 @@ for i in range(q):
             print(f"({A[i]}, {A[j]})")
 
 #Algoritmo de complejidad O(n^2) (cuadrática)
-#Recorre la lista q^2 veces para imprimir todas las combinaciones posibles de números, siendo q la longitud de la lista.
+#Recorre la lista q veces, haciendo que crezca cuadraticamente el número de elementos a comparar.

@@ -30,5 +30,5 @@ for i in range(n):
 
 print(f"Lista origiinal: {B}\nLista ordenada: {A}")
 
-#Algoritmoo de complejidad O(n^2) (cuadrática)
-#Recorre la lista n veces para ordenar los números al comparar el número actual con el siguiente, siendo n la longitud de la lista.
+#Algoritmo de complejidad O(n^2) (cuadrática)
+#Recorre la lista n veces, haciendo que crezca cuadráticamente el número de elementos para ordenar.
