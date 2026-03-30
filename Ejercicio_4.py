@@ -1,4 +1,4 @@
-n = 0
+q = 0
 A = []
 while True:
     try:
@@ -7,14 +7,14 @@ while True:
     except ValueError:
         print("Valor no valido, digite un número entero.")
 
-while n < m:
+while q < m:
     try:
-        numero = int(input(f"Ingrese número {n + 1}: "))
+        numero = int(input(f"Ingrese número {q + 1}: "))
         A.append(numero)
-        n += 1
+        q += 1
     except ValueError:
         print("Valor no valido, digite un número entero.")
-        n = 0
+        q = 0
         A.clear()
 
 B = A.copy()
