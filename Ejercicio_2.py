@@ -15,6 +15,7 @@ while n < m:
     except ValueError:
         print("Valor no valido, digite un número entero.")
         n = 0
+        A.clear()
 
 print(f"El mayor es: {max(A)}\nEl menor es: {min(A)}")
 
